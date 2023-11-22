@@ -9,3 +9,10 @@ body {
     height: 100vh;
 }
 
+.notepad__container {
+    width: 40rem;
+    margin: 0 auto;
+    height: 100%;
+    background-color: #FEFAE0;
+}
+
