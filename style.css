@@ -5,15 +5,15 @@
 }
 
 body {
-    background-color: #cce6ff;
+    background-color: rgb(15, 44, 89);
     height: 100vh;
-    padding: 1rem 0;
+    padding: 1rem;
 }
 
 .notepad__container {
     width: 40rem;
     margin: 0 auto;
     height: 100%;
-    background-color: #FEFAE0;
+    background-color: #F8F0E5;
 }
 
