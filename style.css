@@ -7,6 +7,7 @@
 body {
     background-color: #cce6ff;
     height: 100vh;
+    padding: 1rem 0;
 }
 
 .notepad__container {
