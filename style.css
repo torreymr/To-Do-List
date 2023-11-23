@@ -32,8 +32,10 @@ body {
     gap: 4px;
 }
 
-.pad-task {
+.pad__task {
     display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 
 .pad__check {
