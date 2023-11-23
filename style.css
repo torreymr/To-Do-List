@@ -36,3 +36,12 @@ body {
     display: flex;
 }
 
+.pad__check {
+    width: 1.5rem;
+    aspect-ratio: 1 / 1;
+    border: 1px solid rgb(15, 44, 89);
+    outline: 0;
+    border-radius: 50%;
+    background-color: white;
+}
+
