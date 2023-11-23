@@ -34,13 +34,20 @@ body {
 
 .pad__task {
     display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.current-task {
+    display: flex;
     align-items: center;
     gap: 1rem;
 }
 
-.pad__task :nth-child(1){
+.current-task :nth-child(1){
     margin-right: 1.5rem;
 }
+
 
 .task__name {
     flex: 1;
