@@ -34,6 +34,7 @@ body {
     background-color: transparent;
     border: none;
     border-bottom: 1px solid rgba(0,0,0, 0.2);
+    
 }
 
 .pad-task__container {
@@ -71,10 +72,19 @@ button {
     border-radius: 50%;
     background-color: white;
     cursor: pointer;
+    transition: background-color 0.2s, transform 0.3s ease-in-out;
+}
+
+.pad__check {
+    position: relative;
+}
+
+.pad__check:hover{
+    transform: translateY(-5px);
 }
 
 .pad__checked {
-    background-color: rgb(15, 44, 89);
+    background-color: #4d4d4d;
 }
 
 .task__name {
