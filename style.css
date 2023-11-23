@@ -73,4 +73,8 @@ button {
     background-color: white;
 }
 
+.pad__checked {
+    background-color: rgb(15, 44, 89);
+}
+
 
