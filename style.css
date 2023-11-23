@@ -6,11 +6,16 @@
 
 body {
     background-color: rgb(15, 44, 89);
-    height: 100vh;
-    padding: 1rem;
 }
 
 .notepad__container {
+    padding: 1rem 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.notepad {
     width: 40rem;
     margin: 0 auto;
     height: 100%;
