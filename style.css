@@ -65,6 +65,13 @@ body {
 }
 
 button {
+    width: 1rem;
+    aspect-ratio: 1 / 1;
+}
+
+.pad__check {
+    position: relative;    
+    transition: background-color 0.2s, transform 0.3s ease-in-out;
     width: 1.5rem;
     aspect-ratio: 1 / 1;
     border: 1px solid rgb(15, 44, 89);
@@ -72,12 +79,6 @@ button {
     border-radius: 50%;
     background-color: white;
     cursor: pointer;
-
-}
-
-.pad__check {
-    position: relative;    
-    transition: background-color 0.2s, transform 0.3s ease-in-out;
 }
 
 .pad__check:hover{
