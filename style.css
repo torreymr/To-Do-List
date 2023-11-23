@@ -25,3 +25,9 @@ body {
     gap: 1rem;
 }
 
+.pad-task__container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
