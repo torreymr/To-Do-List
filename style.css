@@ -29,7 +29,7 @@ body {
 .pad-task__container {
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    gap: .75rem;
 }
 
 .pad__task {
