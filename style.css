@@ -38,6 +38,14 @@ body {
     gap: 1rem;
 }
 
+.pad__task :nth-child(1){
+    margin-right: 1.5rem;
+}
+
+.task__name {
+    flex: 1;
+}
+
 button {
     width: 1.5rem;
     aspect-ratio: 1 / 1;
