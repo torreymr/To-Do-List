@@ -32,7 +32,7 @@ body {
     gap: .75rem;
 }
 
-.pad__task {
+.pad__current-task {
     display: flex;
     flex-direction: column;
     gap: 1rem;
