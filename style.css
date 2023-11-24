@@ -134,3 +134,21 @@ button {
     left: 8px;
     top: 1px;
 }
+
+.add__task {
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition:  transform 0.3s ease-in-out;
+}
+
+.add__task:hover {
+    transform: translateY(-5px);
+}
+
+.add__task svg {
+    position: relative;
+    right: 10px;
+    top: 2px;
+}
