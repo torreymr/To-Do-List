@@ -111,9 +111,9 @@ button {
     transform: translateY(-5px);
 }
 
-button span {
+.edit__button svg {
     position: relative;
-    left: 3px;
+    left: 8px;
     top: 1px;
 }
 
