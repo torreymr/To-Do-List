@@ -5,7 +5,7 @@ const toggleButton = function() {
     button.classList.toggle("pad__checked");
 }
 
-const enterPressed = function(event) {
+const enterPressedTitle = function(event) {
     if (event.key === "Enter") {
         document.getElementById("pad__title").classList.add("enter-pressed");
         document.getElementById("pad__title").blur();
