@@ -117,3 +117,20 @@ button {
     top: 1px;
 }
 
+.delete__button {
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition:  transform 0.3s ease-in-out;
+}
+
+.delete__button:hover {
+    transform: translateY(-5px);
+}
+
+.delete__button svg {
+    position: relative;
+    left: 8px;
+    top: 1px;
+}
