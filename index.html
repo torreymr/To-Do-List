@@ -8,38 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="notepad__container">
-        <div class="notepad">
-            <input type="text" name="pad title" id = "pad__title" onkeydown="enterPressedTitle(event)" onclick="editTitle()">
-            <div class="pad-task__container">
 
-                <div class="pad__current-tasks">
-                    <div class="current-task">
-                        <button type="button" id="toggleButton" onclick="toggleButton()" class="pad__check"></button>
-                        <input type="text" name="task name" id="task__name" onkeydown="taskCreated(event)" onclick="editTask()">
-                        <button type="button" id="deleteButton">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
-                                <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0"/>
-                              </svg>
-                        </button> 
-                    </div>
-                    <div class="add-task-button">
-                        <button type="button" class="add__task">
-
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
-                                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
-                              </svg>
-
-                        </button>
-
-                    </div>
-                </div>
-                <div class="pad__checked-tasks">
-
-                </div>
-            </div>
-        </div>
-    </div>
     <script src="index.js"></script>
 </body>
 </html>
