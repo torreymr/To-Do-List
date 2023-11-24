@@ -65,9 +65,11 @@ body {
 }
 
 button {
-    width: 1rem;
+    width: 2rem;
     aspect-ratio: 1 / 1;
 }
+
+
 
 .pad__check {
     position: relative;    
@@ -97,4 +99,21 @@ button {
     outline: none;
 }
 
+.edit__button {
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition:  transform 0.3s ease-in-out;
+}
+
+.edit__button:hover {
+    transform: translateY(-5px);
+}
+
+button span {
+    position: relative;
+    left: 3px;
+    top: 1px;
+}
 
