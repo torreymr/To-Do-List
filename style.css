@@ -96,13 +96,21 @@ button {
     background-color: #4d4d4d;
 }
 
-.task__name {
+#task__name {
     height: 2rem;
     font-size: 1.5rem;
     border: none;
     border-bottom: 1px solid rgba(0,0,0, 0.1);
     outline: none;
+    color: lightgrey;
+    transition: color 0.2s ease-in-out;
+    flex: 1;
 }
+
+#task__name.enter-pressed{
+    color:black;
+}
+
 
 .edit__button {
     background: none;
@@ -162,6 +170,12 @@ button {
     display: none;
 }
 
-.delete__button {
+#deleteButton {
     display: none;
 }
+
+#deleteButton.delete__button {
+    display: block;
+}
+
+
