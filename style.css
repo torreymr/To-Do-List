@@ -155,3 +155,11 @@ button {
     right: 10px;
     top: 2px;
 }
+
+.edit__button {
+    display: none;
+}
+
+.delete__button {
+    display: none;
+}
