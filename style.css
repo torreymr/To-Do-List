@@ -27,6 +27,7 @@ body {
 }
 
 #pad__title {
+    color: lightgrey;
     height: 5rem;
     font-size: 3rem;
     text-align: center;
@@ -38,7 +39,7 @@ body {
 }
 
 #pad__title.enter-pressed {
-    color: #4d4d4d;
+    color: black;
 }
 
 .pad-task__container {
