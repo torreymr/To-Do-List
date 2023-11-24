@@ -26,7 +26,7 @@ body {
     padding: 1rem 6rem 0rem 6rem;
 }
 
-.pad__title {
+#pad__title {
     height: 5rem;
     font-size: 3rem;
     text-align: center;
@@ -34,7 +34,10 @@ body {
     background-color: transparent;
     border: none;
     border-bottom: 1px solid rgba(0,0,0, 0.2);
-    
+}
+
+#pad__title.enter-pressed {
+    color:#4d4d4d;
 }
 
 .pad-task__container {
