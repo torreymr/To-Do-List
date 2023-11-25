@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -23,13 +26,18 @@ body {
     align-items: center;
 }
 
-#listTitle {
+.list__header{
     margin-top: 2rem;
-    height: 4rem;
     width: 55%;
+}
+
+#listTitle {
+    height: 4rem;
+    width: 100%;
     outline: none;
     border: none;
     font-size: 2rem;
+    font-weight: 300;
     text-align: center;
     border-bottom: 1px solid black;
     color: #b3b3b3;
