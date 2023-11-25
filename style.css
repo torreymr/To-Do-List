@@ -33,7 +33,7 @@ body {
     text-align: center;
     border-bottom: 1px solid black;
     color: #b3b3b3;
-    transition: color 0.2s ease-in-out;
+    transition: color 0.1s ease-in-out;
 }
 
 #listTitle.entered__title {
