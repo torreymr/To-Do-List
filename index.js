@@ -3,6 +3,7 @@ const listTitle = document.getElementById("listTitle");
 const warningMessage = document.getElementById("char-limit-warning");
 const checkButton = document.getElementById("checkTask");
 const taskName = document.getElementById("taskName");
+const deleteButton = document.getElementById("deleteTask");
 
 const enterTitle = function(event) {
     if (event.key === "Enter") {
@@ -37,13 +38,17 @@ checkButton.addEventListener("click", function(){
 })
 
 taskName.addEventListener("blur", function(){
-    taskName.classList.add("entered_name");
+    if(taskName.value.length > 0){
+        taskName.classList.add("entered_name");
+        deleteButton.classList.remove("hidden");
+    }
 });
 
 const enterTask = function(event){
     if (event.key === "Enter") {
         taskName.classList.add("entered_name");
         taskName.blur();
+        deleteButton.classList.remove("hidden");
     }
 }
 
