@@ -98,6 +98,12 @@ body {
     border-bottom: 1px solid black;
     outline: none;
     color: #b3b3b3;
+    font-weight: 400;
+    transition: color 0.2s  ease-in-out, weight 0.2s ease-in-out;
+}
+
+#taskName.entered_name {
+    color: black;
 }
 
 #deleteTask {

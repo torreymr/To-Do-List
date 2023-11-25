@@ -2,6 +2,7 @@
 const listTitle = document.getElementById("listTitle");
 const warningMessage = document.getElementById("char-limit-warning");
 const checkButton = document.getElementById("checkTask");
+const taskName = document.getElementById("taskName");
 
 const enterTitle = function(event) {
     if (event.key === "Enter") {
@@ -33,4 +34,19 @@ listTitle.addEventListener("input", function(){
 
 checkButton.addEventListener("click", function(){
     checkButton.classList.toggle("checked");
+})
+
+taskName.addEventListener("blur", function(){
+    taskName.classList.add("entered_name");
+});
+
+const enterTask = function(event){
+    if (event.key === "Enter") {
+        taskName.classList.add("entered_name");
+        taskName.blur();
+    }
+}
+
+taskName.addEventListener("click", function(){
+    taskName.classList.remove("entered_name")
 })
