@@ -66,3 +66,24 @@ body {
     height: 100%;
 }
 
+.task {
+    display: flex;
+    gap: 2rem;
+}
+
+#checkTask {
+    width: 2rem;
+    aspect-ratio: 1 / 1;
+}
+
+#taskName {
+    flex: 1;
+}
+
+#deleteTask {
+    width: 2rem;
+    aspect-ratio: 1 / 1;
+}
+
+
+
