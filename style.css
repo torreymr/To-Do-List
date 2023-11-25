@@ -69,11 +69,21 @@ body {
 .task {
     display: flex;
     gap: 2rem;
+    align-items: center;
 }
 
 #checkTask {
-    width: 2rem;
-    aspect-ratio: 1 / 1;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    outline: none;
+    background-color: light;
+    border: none;
+    transition: transform 0.2s ease-in-out
+}
+
+#checkTask:hover {
+    transform:translateY(-10px);
 }
 
 #taskName {
