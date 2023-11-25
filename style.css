@@ -79,7 +79,8 @@ body {
     outline: none;
     background-color: light;
     border: none;
-    transition: transform 0.2s ease-in-out
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
 }
 
 #checkTask:hover {
