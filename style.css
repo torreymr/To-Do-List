@@ -98,6 +98,16 @@ body {
 #deleteTask {
     width: 2rem;
     aspect-ratio: 1 / 1;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    border-radius: 50%;
+    transition:background-color 0.2s ease-in-out;
+}
+
+#deleteTask:hover {
+    background-color: #e6e6e6;
 }
 
 
