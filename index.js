@@ -1,6 +1,7 @@
 "use strict"
 const listTitle = document.getElementById("listTitle");
 const warningMessage = document.getElementById("char-limit-warning");
+const checkButton = document.getElementById("checkTask");
 
 const enterTitle = function(event) {
     if (event.key === "Enter") {
@@ -29,3 +30,7 @@ listTitle.addEventListener("input", function(){
         warningMessage.textContent = "";
     }
 });
+
+checkButton.addEventListener("click", function(){
+    checkButton.classList.toggle("checked");
+})
