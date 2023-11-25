@@ -61,3 +61,8 @@ body {
     height: 1rem;
 }
 
+.list__body {
+    width: 80%;
+    height: 100%;
+}
+
