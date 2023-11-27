@@ -42,7 +42,7 @@ taskName.addEventListener("blur", function(){
         taskName.classList.add("entered_name");
         deleteButton.classList.remove("hidden");
     }
-});
+}); 
 
 const enterTask = function(event){
     if (event.key === "Enter") {
@@ -54,4 +54,10 @@ const enterTask = function(event){
 
 taskName.addEventListener("click", function(){
     taskName.classList.remove("entered_name")
+})
+
+taskName.addEventListener("input", function(){
+    if (taskName.value === ""){
+        deleteButton.classList.add("hidden");
+    }
 })
