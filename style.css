@@ -33,7 +33,7 @@ body {
 }
 
 #listTitle {
-    background-color: #DDF2FD;
+    background-color: #164863;
     height: 6rem;
     display: flex;
     justify-content: center;
@@ -49,10 +49,12 @@ body {
     border: none;
     outline: none;
     font-weight: 500;
+    color: white;
 }
 
 #listTitleInput::placeholder {
     font-weight: 300;
+    color: lightgrey
 }
 
 #listTasks {
