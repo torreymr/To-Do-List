@@ -18,7 +18,6 @@ body {
     height: 100%;
     width: 50rem;
     margin: 0 auto;
-    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,6 +27,31 @@ body {
     background-color: white;
     height: 70%;
     width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+#listTitle {
+    background-color: #DDF2FD;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#listTitleInput {
+    width: 60%;
+    height: 50%;
+    text-align: center;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    outline: none;
+    font-weight: 500;
+}
+
+#listTitleInput::placeholder {
+    font-weight: 300;
 }
 
 
