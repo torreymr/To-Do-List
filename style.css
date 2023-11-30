@@ -58,7 +58,7 @@ body {
 
 #listTasks {
     background-color: #DDF2FD;
-    height: 23rem;
+    height: 28rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
