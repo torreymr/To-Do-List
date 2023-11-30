@@ -12,15 +12,15 @@ listTitleInput.addEventListener("keydown", function(event){
 
 
 const addTask = function(){
-    console.log("Button Clicked!")
     const task = document.createElement("div");
+    task.setAttribute("id", "task")
     const checkBox = document.createElement("button");
     const taskName = document.createElement("input");
     const deleteButton = document.createElement("button");
 
-    task.appendChild(checkBox);
-    task.appendChild(taskName);
-    task.appendChild(deleteButton);
+    task.appendChild(checkBox).textContent = "check";
+    task.appendChild(taskName).setAttribute("id", "taskName");
+    task.appendChild(deleteButton).textContent = "del";
 
     listTasks.appendChild(task);
 };

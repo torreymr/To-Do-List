@@ -85,6 +85,11 @@ body {
     transform: translateY(-5px);
 }
 
+#task {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
 
 
