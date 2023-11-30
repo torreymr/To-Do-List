@@ -57,6 +57,7 @@ body {
 }
 
 #listTasks {
+    padding: 2rem 0 0 0;
     background-color: #DDF2FD;
     height: 28rem;
     display: flex;
@@ -90,7 +91,6 @@ body {
     align-items: center;
     justify-content: space-around;
 }
-
 
 
 
