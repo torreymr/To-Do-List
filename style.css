@@ -20,8 +20,17 @@ body {
     margin: 0 auto;
     background-color: black;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+#list {
+    background-color: white;
+    height: 70%;
+    width: 70%;
+}
+
+
 
 
 
