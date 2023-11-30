@@ -32,7 +32,7 @@ body {
 }
 
 #listTitle {
-    background-color: #04364A;
+    background-color: #64CCC5;
     height: 6rem;
     display: flex;
     justify-content: center;
@@ -58,7 +58,7 @@ body {
 
 #listTasks {
     padding: 2rem 0 0 0;
-    background-color: #176B87;
+    background-color: #DDF2FD;
     height: 28rem;
     display: flex;
     flex-direction: column;
@@ -70,7 +70,7 @@ body {
     margin: 0 auto;
     height: 5rem;
     font-size: 2rem;
-    background-color: #04364A;
+    background-color: #64CCC5;
     cursor: pointer;
     outline: none;
     border: none;
@@ -96,7 +96,7 @@ body {
     padding: 0 1rem;
     width: 18rem;
     height: 2rem;
-    background-color: #DAFFFB;
+    background-color: white;
     outline: none;
     border: none;
     color: black;
