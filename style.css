@@ -89,16 +89,19 @@ body {
 #task {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 #taskName {
-    width: 20rem;
+    padding: 0 1rem;
+    width: 18rem;
     height: 2rem;
     background-color: #DAFFFB;
     outline: none;
     border: none;
-    color: white;
+    color: black;
+    margin: 0 4rem;
+    border-radius: 10px;
 }
 
 
