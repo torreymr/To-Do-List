@@ -24,7 +24,6 @@ body {
 }
 
 #list {
-    background-color: white;
     height: 70%;
     width: 70%;
     display: flex;
@@ -33,7 +32,7 @@ body {
 }
 
 #listTitle {
-    background-color: #164863;
+    background-color: #64CCC5;
     height: 6rem;
     display: flex;
     justify-content: center;
@@ -54,13 +53,15 @@ body {
 
 #listTitleInput::placeholder {
     font-weight: 300;
-    color: lightgrey
+    color: white;
 }
 
 #listTasks {
     background-color: #DDF2FD;
     height: 23rem;
 }
+
+
 
 
 
