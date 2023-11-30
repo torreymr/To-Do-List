@@ -33,6 +33,15 @@ body {
     height: 5rem;
 }
 
+#listTitleInput {
+    height: 95%;
+    width: 75%;
+    font-size: 2rem;
+    outline: none;
+    border: none;
+    text-align: center;
+}
+
 
 
 
