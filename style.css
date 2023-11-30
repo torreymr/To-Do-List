@@ -14,10 +14,11 @@ body {
 }
 
 
-#list__container{
+#listContainer{
     height: 100%;
     width: 50rem;
     margin: 0 auto;
+    background-color: black;
 }
 
 
