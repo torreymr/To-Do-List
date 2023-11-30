@@ -23,24 +23,6 @@ body {
     flex-direction: column;
 }
 
-#listTitle {
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 30rem;
-    margin: 0 auto;
-    height: 5rem;
-}
-
-#listTitleInput {
-    height: 95%;
-    width: 75%;
-    font-size: 2rem;
-    outline: none;
-    border: none;
-    text-align: center;
-}
 
 
 
