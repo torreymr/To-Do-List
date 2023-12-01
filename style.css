@@ -92,6 +92,23 @@ body {
     justify-content: center;
 }
 
+
+#checkbox {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: white;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+#checkbox:hover {
+    transform: translateY(-8px);
+}
+
+
 #taskName {
     padding: 0 1rem;
     width: 18rem;
