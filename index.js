@@ -44,6 +44,10 @@ document.getElementById("newTask").addEventListener("click",function(){
     
     const checkTab = document.createElement("button");
     checkTab.setAttribute("id", "checkTab");
+    
+    checkTab.addEventListener("click", function(){
+        task.classList.toggle("checked");
+    })
 
     const taskNameContainer = document.createElement("div");
     taskNameContainer.setAttribute("id", "taskNameContainer");
@@ -70,6 +74,7 @@ document.getElementById("newTask").addEventListener("click",function(){
             taskNameInput.classList.add("created")
         }
     })
+
 
     const deleteTaskButton = document.createElement("button");
     deleteTaskButton.setAttribute("id", "deleteTask");
