@@ -24,8 +24,8 @@ body {
 }
 
 #list {
-    height: 90%;
-    width: 50%;
+    height: 70%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -60,11 +60,10 @@ body {
 #listTasks {
     padding: 2rem 0 5rem 0;
     background-color: #DDF2FD;
-    height: 45rem;
+    height: 28rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 1rem;
+    gap: 1.5rem;
     overflow-y: scroll;
 }
 
@@ -105,11 +104,8 @@ body {
 #task {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 2rem;
-    width: fit-content;
-    padding: 1rem 1rem;
-    border-radius: 5px;
+    justify-content: space-around;
+    margin-left: 1.25rem;
 }
 
 
@@ -122,19 +118,11 @@ body {
     border: none;
     cursor: pointer;
     transition: transform 0.2s ease-in-out;
+
 }
 
 #checkbox:hover {
     transform: translateY(-8px);
-}
-
-#taskContent {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    border-radius: 15px;
-    border: none;
-    background-color: white;
 }
 
 
@@ -146,10 +134,10 @@ body {
     outline: none;
     border: none;
     color: black;
+    margin: 0 2rem;
     font-size: 1.25rem;
     border-radius: 10px;
     color: rgba(4, 54, 74, 0.2);
-    transition: color 0.3s ease-in-out;
 }
 
 #taskName.entered {
@@ -158,11 +146,13 @@ body {
 }
 
 #deleteButton {
-    width: 2rem;
-    height: 2rem;
+    width: 1.75rem;
+    height: 1.75rem;
     background: none;
     outline: none;
     border: none;
+    position: relative;
+    left: -1rem;
     cursor: pointer;
     border-radius: 50%;
     transition: background-color 0.2s ease-in-out;
@@ -171,7 +161,6 @@ body {
 #deleteButton:hover {
     background-color: lightgrey;
 }
-
 
 
 
