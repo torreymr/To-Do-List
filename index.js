@@ -38,5 +38,29 @@ document.addEventListener("DOMContentLoaded", function(){
     });
 });
 
+document.getElementById("newTask").addEventListener("click",function(){
+    const task = document.createElement("div");
+    task.setAttribute("id", "task");
+    
+    const checkTab = document.createElement("button");
+    checkTab.setAttribute("id", "checkTab");
+
+    const taskNameContainer = document.createElement("div");
+    taskNameContainer.setAttribute("id", "taskNameContainer");
+
+    const taskNameInput = document.createElement("input");
+    taskNameInput.setAttribute("id", "taskName");
+
+    const deleteTaskButton = document.createElement("button");
+    deleteTaskButton.setAttribute("id", "deleteTask");
+
+    task.appendChild(checkTab);
+    task.appendChild(taskNameContainer);
+    taskNameContainer.appendChild(taskNameInput);
+    taskNameContainer.appendChild(deleteTaskButton);
+
+    document.getElementById("listTasksContainer").appendChild(task);
+});
+
 
 
