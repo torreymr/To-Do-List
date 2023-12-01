@@ -55,6 +55,7 @@ document.getElementById("newTask").addEventListener("click",function(){
         if(event.key === "Enter"){
             task.classList.add("created");
             taskNameInput.classList.add("created")
+            taskNameInput.blur();
         }
     })
 
