@@ -104,8 +104,8 @@ body {
 #task {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    margin-left: 1.25rem;
+    justify-content: center;
+    gap: 2rem;
 }
 
 
@@ -118,8 +118,6 @@ body {
     border: none;
     cursor: pointer;
     transition: transform 0.2s ease-in-out;
-    position: relative;
-    right: -1.5rem;
 }
 
 #checkbox:hover {
@@ -135,7 +133,6 @@ body {
     outline: none;
     border: none;
     color: black;
-    margin: 0 2rem;
     font-size: 1.25rem;
     border-radius: 10px;
     color: rgba(4, 54, 74, 0.2);
@@ -152,8 +149,6 @@ body {
     background: none;
     outline: none;
     border: none;
-    position: relative;
-    left: -1rem;
     cursor: pointer;
     border-radius: 50%;
     transition: background-color 0.2s ease-in-out;
