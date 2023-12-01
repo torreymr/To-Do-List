@@ -51,6 +51,13 @@ document.getElementById("newTask").addEventListener("click",function(){
     const taskNameInput = document.createElement("input");
     taskNameInput.setAttribute("id", "taskName");
 
+    taskNameInput.addEventListener("keydown", function(event){
+        if(event.key === "Enter"){
+            task.classList.add("created");
+            taskNameInput.classList.add("created")
+        }
+    })
+
     const deleteTaskButton = document.createElement("button");
     deleteTaskButton.setAttribute("id", "deleteTask");
 

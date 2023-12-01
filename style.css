@@ -111,6 +111,10 @@ body {
     margin: .5rem 0;
 }
 
+#task.created {
+    background-color: rgba(255,255,255, 0.6);
+}
+
 #checkTab {
     width: 10px;
     height: 100%;
@@ -139,6 +143,11 @@ body {
     background-color: rgba(255, 255, 255, .1);
     border-radius: 15px;
     color:rgba(255, 255, 255, .5)
+}
+
+#taskName.created {
+    background-color: transparent;
+    color: rgba(0,0,0, 0.6)
 }
 
 #deleteTask {
