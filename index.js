@@ -29,6 +29,7 @@ const addTask = function(){
     taskName.addEventListener("keydown", function(event){
         if(event.key === "Enter"){
             taskName.blur();
+            taskName.classList.add("entered");
         }
     });
 
