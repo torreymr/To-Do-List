@@ -12,8 +12,6 @@ document.addEventListener("DOMContentLoaded", function(){
         if (currentLength > 0){
             charCount.classList.remove("hidden");
             charCount.textContent = currentLength + "/" + maxCharacters;
-        } else if (currentLength == 0){
-            charCount.classList.add("hidden");
         }
 
     })
@@ -29,5 +27,6 @@ listTitleInput.addEventListener("keydown", function(event){
 
 listTitleInput.addEventListener("click", function(){
     listTitleInput.classList.remove("entered");
+    charCount.classList.remove("hidden");
 })
 
