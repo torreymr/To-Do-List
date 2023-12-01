@@ -64,6 +64,13 @@ document.getElementById("newTask").addEventListener("click",function(){
         taskNameInput.classList.remove("created")
     })
 
+    taskNameInput.addEventListener("blur", function(){
+        if (taskNameInput.value.length > 0){
+            task.classList.add("created");
+            taskNameInput.classList.add("created")
+        }
+    })
+
     const deleteTaskButton = document.createElement("button");
     deleteTaskButton.setAttribute("id", "deleteTask");
 
