@@ -105,7 +105,7 @@ body {
 }
 
 #task {
-    background-color: yellow;
+    background-color:blue;
     width: 23rem;
     height: 6rem;
     display: flex;
@@ -113,13 +113,16 @@ body {
 }
 
 #checkTab {
-    width: 2rem;
-    height: 2rem;
+    width: 10px;
+    height: 100%;
 }
 
 #taskNameContainer{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0 auto;
 }
 
 #deleteTask {
