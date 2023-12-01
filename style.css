@@ -53,18 +53,18 @@ body {
 
 #listTitleInput::placeholder {
     font-weight: 300;
-    color: white;
+    color: rgba(255, 255, 255, 0.5);
+
 }
 
 #listTasks {
-    padding: 2rem 0 0 0;
+    padding: 2rem 0 5rem 0;
     background-color: #DDF2FD;
     height: 28rem;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
     overflow-y: scroll;
-
 }
 
 #listTasks::-webkit-scrollbar {
