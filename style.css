@@ -26,7 +26,37 @@ body {
 #list {
     width: 30rem;
     height: 45rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background: linear-gradient(to bottom right, #05BFDB, #00FFCA);
+}
+
+#listTitleContainer {
+    height: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#listTitle {
+     width: 80%;
+     height: 4rem;
+     font-size: 3rem;
+     text-align: center;
+     background-color: rgba(255, 255, 255, 0.3);
+     border: none;
+     outline: none;
+     border-radius: 25px;
+     color: rgba(255, 255, 255, 0.5);
+
+}
+
+#listTasksContainer {
+    flex: 1;
+    width: 100%;
+    background-color: yellow;
 }
 
 
