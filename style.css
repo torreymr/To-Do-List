@@ -33,7 +33,7 @@ body {
 }
 
 #listTitleContainer {
-    height: 12rem;
+    height: 18rem;
     width: 100%;
 }
 
@@ -76,7 +76,7 @@ body {
 }
 
 #listTasksContainer {
-    flex: 1;
+    height: 100%;
     width: 100%;
     background-color: yellow;
 }
