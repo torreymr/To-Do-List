@@ -20,10 +20,13 @@ const addTask = function(){
   </svg>`
     const task = document.createElement("div");
     const checkBox = document.createElement("button");
+    const taskContent = document.createElement("div");
     const taskName = document.createElement("input");
     const deleteButton = document.createElement("button");
     task.setAttribute("id", "task");
     checkBox.setAttribute("id", "checkbox");
+
+    taskContent.setAttribute("id", "taskContent");
 
     taskName.setAttribute("id", "taskName");
     taskName.addEventListener("keydown", function(event){
@@ -37,8 +40,9 @@ const addTask = function(){
     deleteButton.setAttribute("id", "deleteButton");
 
     task.appendChild(checkBox);
-    task.appendChild(taskName);
-    task.appendChild(deleteButton);
+    taskContent.appendChild(taskName);
+    taskContent.appendChild(deleteButton);
+    task.appendChild(taskContent);
     
 
     listTasks.appendChild(task);
