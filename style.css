@@ -144,6 +144,20 @@ body {
 #deleteTask {
     width: 2rem;
     height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+    background-color: rgba(255, 255, 255, .4);
+    cursor: pointer;
+    border-radius: 25%;
+    opacity: 0;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+#deleteTask:hover {
+    opacity: 1;
 }
 
 #newTask {
