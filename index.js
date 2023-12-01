@@ -3,12 +3,15 @@
 const listTitleInput = document.getElementById("listTitleInput");
 const addTaskButton = document.getElementById("addTask");
 const listTasks = document.getElementById("listTasks");
+const taskNameInput = document.getElementById("taskName");
 
 listTitleInput.addEventListener("keydown", function(event){
     if(event.key === "Enter"){
         listTitleInput.blur();
     }
 });
+
+
 
 
 const addTask = function(){
@@ -21,7 +24,14 @@ const addTask = function(){
     const deleteButton = document.createElement("button");
     task.setAttribute("id", "task");
     checkBox.setAttribute("id", "checkbox");
+
     taskName.setAttribute("id", "taskName");
+    taskName.addEventListener("keydown", function(event){
+        if(event.key === "Enter"){
+            taskName.blur();
+        }
+    });
+
     deleteButton.innerHTML = svgElement;
     deleteButton.setAttribute("id", "deleteButton");
 
