@@ -126,8 +126,12 @@ body {
     transform: translateY(-2px);
 }
 
+#task.created.checked:hover {
+    transform: translateX(21.75rem)
+}
+
 #checkTab {
-    width: 10px;
+    width: 15px;
     height: 100%;
     outline: 0;
     border: 0;
