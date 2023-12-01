@@ -1,8 +1,10 @@
 "use strict";
+const listTitleInput = document.getElementById("listTitle");
+const charCount = document.getElementById("charCount");
 
 document.addEventListener("DOMContentLoaded", function(){
-    const listTitleInput = document.getElementById("listTitle");
-    const charCount = document.getElementById("charCount");
+
+
     const maxCharacters = 15;
 
     listTitleInput.addEventListener("input", function(){
@@ -15,4 +17,13 @@ document.addEventListener("DOMContentLoaded", function(){
         }
 
     })
-})
+});
+
+listTitleInput.addEventListener("keydown", function(event){
+    if(event.key === "Enter"){
+        listTitleInput.blur();
+        listTitleInput.classList.add("entered")
+        charCount.classList.add("hidden");
+    }
+});
+
