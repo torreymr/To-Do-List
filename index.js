@@ -35,6 +35,9 @@ const addTask = function(){
             taskName.classList.add("entered");
         }
     });
+    taskName.addEventListener("click", function(){
+        taskName.classList.remove("entered");
+    })
 
     deleteButton.innerHTML = svgElement;
     deleteButton.setAttribute("id", "deleteButton");
