@@ -28,6 +28,7 @@ listTitleInput.addEventListener("keydown", function(event){
 listTitleInput.addEventListener("click", function(){
     listTitleInput.classList.remove("entered");
     charCount.classList.remove("hidden");
+    charCount.textContent = currentLength + "/" + maxCharacters;
 });
 
 listTitleInput.addEventListener("blur", function(){
