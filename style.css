@@ -34,24 +34,9 @@ body {
 
 #listTitleContainer {
     height: 12rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
-#listTitle {
-     width: 75%;
-     height: 4rem;
-     font-size: 3rem;
-     text-align: center;
-     background-color: rgba(255, 255, 255, 0.3);
-     border: none;
-     outline: none;
-     border-radius: 25px;
-     color: rgba(255, 255, 255, 0.6);
 
-}
 
 #listTasksContainer {
     flex: 1;
