@@ -118,7 +118,8 @@ body {
     border: none;
     cursor: pointer;
     transition: transform 0.2s ease-in-out;
-
+    position: relative;
+    right: -1.5rem;
 }
 
 #checkbox:hover {
