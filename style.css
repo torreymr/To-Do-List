@@ -142,10 +142,11 @@ body {
     outline: none;
     border: none;
     color: black;
-    margin: 0 1rem;
+    margin: 0 .5rem;
     font-size: 1.25rem;
     border-radius: 10px;
     color: rgba(4, 54, 74, 0.2);
+    transition: color 0.2s ease-in-out;
 }
 
 #taskName.entered {
