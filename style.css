@@ -85,10 +85,22 @@ body {
 #listTasksContainer {
     height: 100%;
     width: 100%;
-    background-color: yellow;
 }
 
-
+#newTask {
+    width: 13rem;
+    height: 6rem;
+    font-size: 2rem;
+    border-radius: 25px;
+    background-color: #05BFDB;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 600;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: -3rem;
+}
 
 
 
