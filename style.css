@@ -100,7 +100,14 @@ body {
     cursor: pointer;
     position: relative;
     top: -3rem;
+    transition: transform 0.2s ease-in-out;
 }
+
+#newTask:hover {
+    transform: translateY(-5px)
+}
+
+
 
 
 
