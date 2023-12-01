@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function(){
     const maxCharacters = 15;
 
     listTitleInput.addEventListener("input", function(){
-        const currentLength = listTitleInput.value.length - 1;
+        const currentLength = listTitleInput.value.length;
         if (currentLength > 0){
             charCount.classList.remove("hidden");
             charCount.textContent = currentLength + "/" + maxCharacters;
