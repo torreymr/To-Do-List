@@ -34,7 +34,7 @@ body {
 }
 
 #listTitleContainer {
-    height: 18rem;
+    height: 15rem;
     width: 100%;
 }
 
@@ -85,6 +85,7 @@ body {
 #listTasksContainer {
     height: 100%;
     width: 100%;
+    background-color: yellow;
 }
 
 #newTask {
