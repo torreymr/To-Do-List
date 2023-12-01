@@ -34,6 +34,16 @@ body {
 
 #listTitleContainer {
     height: 12rem;
+    width: 100%;
+}
+
+#listTitleItems{
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
