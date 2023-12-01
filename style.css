@@ -126,6 +126,13 @@ body {
     transform: translateY(-8px);
 }
 
+#taskContent {
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
 
 #taskName {
     padding: 0 1rem;
@@ -135,7 +142,7 @@ body {
     outline: none;
     border: none;
     color: black;
-    margin: 0 2rem;
+    margin: 0 1rem;
     font-size: 1.25rem;
     border-radius: 10px;
     color: rgba(4, 54, 74, 0.2);
@@ -147,13 +154,11 @@ body {
 }
 
 #deleteButton {
-    width: 1.75rem;
-    height: 1.75rem;
+    width: 2rem;
+    height: 2rem;
     background: none;
     outline: none;
     border: none;
-    position: relative;
-    left: -1rem;
     cursor: pointer;
     border-radius: 50%;
     transition: background-color 0.2s ease-in-out;
