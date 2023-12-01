@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function(){
     const maxCharacters = 15;
 
     listTitleInput.addEventListener("input", function(){
-        const currentLength = listTitleInput.value.length;
+        const currentLength = listTitleInput.value.length - 1;
         if (currentLength > 0){
             charCount.classList.remove("hidden");
             charCount.textContent = currentLength + "/" + maxCharacters;
@@ -28,5 +28,12 @@ listTitleInput.addEventListener("keydown", function(event){
 listTitleInput.addEventListener("click", function(){
     listTitleInput.classList.remove("entered");
     charCount.classList.remove("hidden");
+});
+
+listTitleInput.addEventListener("blur", function(){
+    if (listTitleInput.value.length > 0){
+        listTitleInput.classList.add("entered")
+    }
+    charCount.classList.add("hidden");
 })
 
