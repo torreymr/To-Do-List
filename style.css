@@ -73,6 +73,7 @@ body {
 #charCount {
     margin-left: .25rem;
     color: rgba(255, 255, 255, 0.4);
+    transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 
 #charCount.hidden {
