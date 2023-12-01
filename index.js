@@ -59,6 +59,11 @@ document.getElementById("newTask").addEventListener("click",function(){
         }
     })
 
+    taskNameInput.addEventListener("click", function(){
+        task.classList.remove("created");
+        taskNameInput.classList.remove("created")
+    })
+
     const deleteTaskButton = document.createElement("button");
     deleteTaskButton.setAttribute("id", "deleteTask");
 

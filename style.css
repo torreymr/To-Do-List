@@ -149,7 +149,7 @@ body {
     border-radius: 15px;
     color:rgba(255, 255, 255, .5);
     font-weight: 600;
-    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+    transition: background-color 0.5s ease-in-out, color 0.2s ease-in-out;
 }
 
 #taskName.created {
