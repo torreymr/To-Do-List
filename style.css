@@ -104,7 +104,8 @@ body {
 #task {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 1.9rem;
     margin-left: 1.25rem;
 }
 
