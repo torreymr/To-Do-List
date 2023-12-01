@@ -83,6 +83,9 @@ body {
 }
 
 #listTasksContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
     height: 100%;
     width: 100%;
     overflow-y: scroll;
@@ -101,10 +104,28 @@ body {
     background-color: #05BFDB;
 }
 
+#task {
+    background-color: yellow;
+    width: 23rem;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+}
 
+#checkTab {
+    width: 2rem;
+    height: 2rem;
+}
 
+#taskNameContainer{
+    display: flex;
+    align-items: center;
+}
 
-
+#deleteTask {
+    width: 2rem;
+    height: 2rem;
+}
 
 #newTask {
     width: 13rem;
