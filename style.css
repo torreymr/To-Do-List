@@ -45,9 +45,10 @@ body {
     font-size: 5rem;
     font-weight: 800;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.1);
-    color: rgba(191, 191, 191, .3);
+    background-color: rgba(120, 120, 120, 0.3);
+    color: rgba(191, 191, 191, .1);
     box-shadow: 2px 2px 15px lightgrey;
+    transition: background-color 0.1s ease-in-out, color 0.2s ease-in-out;
 }
 
 
