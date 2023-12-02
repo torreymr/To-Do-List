@@ -231,11 +231,66 @@ body {
         transform: translateX(26rem);
     }
 
-    #task.created.checked:hover {
-        transform: translateX(25.75rem);
+    #task.created.checked {
+        transform: translateX(26rem);
     }
 }
 
+
+@media screen and (max-width: 800px) {
+    body {
+        background: black;
+    }
+
+    #list {
+        width: 20rem;
+        height: 35rem;
+    }
+    #listTitleContainer {
+        height: 10rem;
+    }
+
+    #listTasksContainer {
+        padding-left: 2rem;
+        padding-bottom: 0;
+    }
+
+    #listTitle {
+        font-size: 1.75rem;
+    }
+    
+    #checkTab {
+        width: 10px;
+    }
+
+    #task {
+        width: 18rem;
+        height: 4rem;
+    }
+
+    #task.created.checked{
+        transform: translateX(16.5rem);
+    }
+
+    #task.created.checked:hover {
+        transform: translateX(16.5rem);
+    }
+
+    #taskName {
+        font-size: 1.25rem;
+    }
+
+    #deleteTask {
+        opacity: 1;
+        background-color: rgba(255, 255, 255, .3);
+    }
+
+    #newTask {
+        width: 8rem;
+        height: 4rem;
+        font-size: 1.5rem;
+    }
+}
 
 
 
