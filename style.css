@@ -51,6 +51,9 @@ body {
     transition: background-color 0.1s ease-in-out, color 0.2s ease-in-out;
 }
 
+#listTitle::placeholder {
+    color: rgba(191, 191, 191, .1);
+}
 
 
 
