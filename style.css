@@ -84,6 +84,8 @@ body {
     background-color: lightgrey;
     overflow: auto;
     padding-top: 1rem;
+    border-top-right-radius: 4rem;
+    border-top-left-radius: 4rem;
 }
 
 #listTasks {
@@ -121,6 +123,11 @@ body {
     outline: none;
     border: none;
     cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+#taskCheckmark:hover {
+    transform: translateY(-10px)
 }
 
 #taskNameContainer {
@@ -138,6 +145,7 @@ body {
     border: none;
     padding: 0 3rem;
     font-size: 4rem;
+    font-weight: 500;
     background-color: rgba(120, 120, 120, 0.3);
     color: white;
     box-shadow: 2px 2px 15px lightgrey;
@@ -159,8 +167,12 @@ body {
     outline: none;
     border: none;
     cursor: pointer;
+    transition: transform 0.3s ease-in-out;
 }
 
+#deleteButton:hover {
+    transform: translateY(-10px);
+}
 
 
 
