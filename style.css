@@ -83,6 +83,7 @@ body {
     flex: 1;
     background-color: lightgrey;
     overflow: auto;
+    padding-top: 1rem;
 }
 
 #listTasks {
