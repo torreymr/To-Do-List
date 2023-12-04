@@ -99,7 +99,6 @@ body {
 }
 
 #task {
-    background-color: red;
     height: 9rem;
     width: 100%;
     display: flex;
@@ -107,9 +106,20 @@ body {
 }
 
 #taskCheckmarkContainer {
-    background-color: yellow;
     height: 100%;
     width: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#taskCheckmark {
+    width: 6.5rem;
+    height: 6.5rem;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    cursor: pointer;
 }
 
 #taskNameContainer {
@@ -122,4 +132,6 @@ body {
     background-color: yellow;
     width: 15rem;
 }
+
+
 
