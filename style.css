@@ -77,10 +77,28 @@ body {
     width: 100%;
     flex: 1;
     background-color: lightgrey;
+    overflow: auto;
 }
 
 #listTasks {
-    background-color: blue;
     width: 100%;
     height: 100%;
 }
+
+#listTasks::-webkit-scrollbar {
+    width: 5px;
+}
+
+#listTasks::-webkit-scrollbar-thumb {
+    background-color: black;
+}
+
+#task {
+    background-color: red;
+    height: 9rem;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+
+
