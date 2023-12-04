@@ -146,9 +146,22 @@ body {
 
 #taskDeleteButtonContainer {
     height: 100%;
-    background-color: yellow;
     width: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+#deleteButton {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+
 
 
 
