@@ -101,9 +101,25 @@ body {
 #task {
     background-color: red;
     height: 9rem;
+    width: 100%;
     display: flex;
-    justify-content: space-around;
     margin-bottom: 1rem;
 }
 
+#taskCheckmarkContainer {
+    background-color: yellow;
+    height: 100%;
+    width: 15rem;
+}
+
+#taskNameContainer {
+    flex-grow: 1;
+    background-color: blue;
+}
+
+#taskDeleteButtonContainer {
+    height: 100%;
+    background-color: yellow;
+    width: 15rem;
+}
 
