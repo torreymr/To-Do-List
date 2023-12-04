@@ -71,6 +71,11 @@ body {
     font-weight: 600;
     color: lightgrey;
     cursor: pointer;
+    transition: transform .3s ease-in-out;
+}
+
+#newTask:hover {
+    transform: translateY(-5px);
 }
 
 #listTasksContainer {
