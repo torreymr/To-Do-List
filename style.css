@@ -124,7 +124,23 @@ body {
 
 #taskNameContainer {
     flex-grow: 1;
-    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#taskName {
+    height: 90%;
+    width: 90%;
+    border-radius: 4rem;
+    outline: none;
+    border: none;
+    padding: 0 3rem;
+    font-size: 4rem;
+    background-color: rgba(120, 120, 120, 0.3);
+    color: white;
+    box-shadow: 2px 2px 15px lightgrey;
+    transition: background-color 0.1s ease-in-out, color 0.2s ease-in-out;
 }
 
 #taskDeleteButtonContainer {
