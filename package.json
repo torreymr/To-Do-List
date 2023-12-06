@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A To Do List that works like the notes app on an Iphone or Mac.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
