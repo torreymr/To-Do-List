@@ -6,4 +6,5 @@ Making it work like the notes app on an apple device was a tall task to attack. 
 Not a fan of it, but I want to work my way up to the previous version. It is better than having to manually add a task with a button. 
 
 UPDATED 2 
-Previously was only doing front end development, but now I am cutting down on the U.I on the app and going to practice the backend side of things.
+Previously was only doing front end development, but now I am cutting down on the U.I on the app and going to practice the backend side of things. Going to use Node and Express for the backend and maybe a front end framework like Bootstrap
+for a decent U.I.
