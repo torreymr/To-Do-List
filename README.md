@@ -7,4 +7,4 @@ Not a fan of it, but I want to work my way up to the previous version. It is bet
 
 UPDATED 2 
 Previously was only doing front end development, but now I am cutting down on the U.I on the app and going to practice the backend side of things. Going to use Node and Express for the backend and maybe a front end framework like Bootstrap
-for a decent U.I.
+for a decent U.I. Also going to work on my commiting skills because I've been doing it wrong this whole time kind.
